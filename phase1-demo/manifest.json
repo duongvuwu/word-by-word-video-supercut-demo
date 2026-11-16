@@ -1,0 +1,351 @@
+{
+  "title": "Phase 1 real-dialogue demo",
+  "listening_status": "chờ nghe xác nhận (human audition required; session lacks audio input)",
+  "time_origin": "start_us/end_us are elapsed from each excerpt's format.start_time (0.000000).",
+  "script": {
+    "full_text": "Where are you heading next? To meet my companion today. Shall we go? Yes, our train leaves soon.",
+    "word_count": 18,
+    "sentences": [
+      {
+        "id": "s1",
+        "text": "Where are you heading next?",
+        "pause_after_ms": 300,
+        "pause_mechanism": "trailing natural room tone in clip 5 ('next?') 25.27-25.57s"
+      },
+      {
+        "id": "s2",
+        "text": "To meet my companion today.",
+        "pause_after_ms": 290,
+        "pause_mechanism": "trailing natural room tone in clip 10 ('today.') 22.51-22.80s"
+      },
+      {
+        "id": "s3",
+        "text": "Shall we go?",
+        "pause_after_ms": 85,
+        "pause_mechanism": "85 ms trailing room tone in clip 13 plus 225 ms leading room tone in clip 14.",
+        "pause_until_next_onset_estimate_ms": 310
+      },
+      {
+        "id": "s4",
+        "text": "Yes, our train leaves soon.",
+        "pause_after_ms": 230,
+        "pause_mechanism": "trailing natural room tone tail in clip 18 ('soon.') 26.57-26.80s",
+        "lead_in_to_first_word_ms": 225
+      }
+    ]
+  },
+  "derivative_license": {
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "changes_statement": "Word-by-word audiovisual supercut assembled from short spoken excerpts of Valkaama and File:WalesAnniversaryAddress.ogv, scaled/padded to 1920x1080 30fps and loudness-normalized to stereo 48kHz."
+  },
+  "sources": {
+    "Valkaama": {
+      "title": "Valkaama",
+      "authors": "Valkaama Team / Tim Baumann",
+      "source_url": "https://www.valkaama.com/index.php?l=en&page=valkaama",
+      "media_url": "https://www.valkaama.com/media/movie/Valkaama%28music-MichaelGeorgi%29.avi",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "Valkaama (Tim Baumann / Valkaama Team, valkaama.com), CC BY-SA 3.0",
+      "excerpts": {
+        "Valkaama_traveler_excerpt.mp4": {
+          "path": "sources/Valkaama_traveler_excerpt.mp4",
+          "sha256": "723324e5d1e8f4017b66b365e2c038e70e67d0a1f553547dda1eda97fb4a6b49",
+          "size_bytes": 14024493,
+          "format_start_time_s": "0.000000",
+          "duration_us": 65000000,
+          "audio_stream_index": 1,
+          "orig_start_time_s": 1990.175,
+          "orig_start_tc": "00:33:10.175"
+        },
+        "Valkaama_train_excerpt.mp4": {
+          "path": "sources/Valkaama_train_excerpt.mp4",
+          "sha256": "d8d17b67d7628f35b4b808aaa91e950c50c3b9d489455a5a615c08ff0816dfdc",
+          "size_bytes": 5449218,
+          "format_start_time_s": "0.000000",
+          "duration_us": 32000000,
+          "audio_stream_index": 1,
+          "orig_start_time_s": 3055.0,
+          "orig_start_tc": "00:50:55.000"
+        }
+      }
+    },
+    "WalesAnniversaryAddress": {
+      "title": "WalesAnniversaryAddress (Jimmy Wales 10th anniversary of Wikipedia address)",
+      "authors": "Wikimedia Foundation (speaker: Jimmy Wales)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:WalesAnniversaryAddress.ogv",
+      "media_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/WalesAnniversaryAddress.ogv",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Wikimedia Foundation (File:WalesAnniversaryAddress.ogv, commons.wikimedia.org), CC BY-SA 3.0",
+      "restrictions_note": "Wikimedia Commons metadata notes Restrictions: trademarked (refers to Wikipedia logo/trademark). Selected clip 'today' at 22.055-22.800s avoids spoken trademark terms.",
+      "excerpts": {
+        "WalesAnniversary_excerpt.mp4": {
+          "path": "sources/WalesAnniversary_excerpt.mp4",
+          "sha256": "3827ce9a838a168b5628d53efae63b429aadedab29a80301ce416127043ba568",
+          "size_bytes": 10333274,
+          "format_start_time_s": "0.000000",
+          "duration_us": 45010159,
+          "audio_stream_index": 1,
+          "orig_start_time_s": 0.0,
+          "orig_start_tc": "00:00:00.000"
+        }
+      }
+    }
+  },
+  "clips": [
+    {
+      "index": 1,
+      "sentence_id": "s1",
+      "word": "Where",
+      "source": "sources/Valkaama_traveler_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 23670000,
+      "end_us": 24080000,
+      "orig_source": "Valkaama(music-MichaelGeorgi).avi",
+      "orig_offset_s": 1990.175,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "medium-tight-internal",
+      "edge_notes": "20 ms silent lead-in (23.67-23.68, ~42 RMS); continuous voiced flow into 'are' at 24.08."
+    },
+    {
+      "index": 2,
+      "sentence_id": "s1",
+      "word": "are",
+      "source": "sources/Valkaama_traveler_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 24080000,
+      "end_us": 24250000,
+      "orig_source": "Valkaama(music-MichaelGeorgi).avi",
+      "orig_offset_s": 1990.175,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "tight-internal",
+      "edge_notes": "Shallow voiced valley sp=1337..1547 (24.14-24.25) between 'Where' and 'you'."
+    },
+    {
+      "index": 3,
+      "sentence_id": "s1",
+      "word": "you",
+      "source": "sources/Valkaama_traveler_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 24250000,
+      "end_us": 24450000,
+      "orig_source": "Valkaama(music-MichaelGeorgi).avi",
+      "orig_offset_s": 1990.175,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "tight-internal",
+      "edge_notes": "Energy rise at 24.26 (sp=2430, hi=98); voiced flow into 'heading' at 24.45."
+    },
+    {
+      "index": 4,
+      "sentence_id": "s1",
+      "word": "heading",
+      "source": "sources/Valkaama_traveler_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 24450000,
+      "end_us": 24870000,
+      "orig_source": "Valkaama(music-MichaelGeorgi).avi",
+      "orig_offset_s": 1990.175,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "high-end",
+      "edge_notes": "Voiced coda ends cleanly at 24.86 before 70 ms silent /k/ stop closure (24.87-24.93, sp=62)."
+    },
+    {
+      "index": 5,
+      "sentence_id": "s1",
+      "word": "next?",
+      "source": "sources/Valkaama_traveler_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 24870000,
+      "end_us": 25570000,
+      "orig_source": "Valkaama(music-MichaelGeorgi).avi",
+      "orig_offset_s": 1990.175,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "high",
+      "edge_notes": "Includes 70 ms silent stop gap + burst/fricative (24.94-25.27, >3k=226) + ~300 ms trailing room tone (25.27-25.57, ~45 RMS) for S1->S2 pause."
+    },
+    {
+      "index": 6,
+      "sentence_id": "s2",
+      "word": "To",
+      "source": "sources/Valkaama_traveler_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 31390000,
+      "end_us": 31655000,
+      "orig_source": "Valkaama(music-MichaelGeorgi).avi",
+      "orig_offset_s": 1990.175,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "medium",
+      "edge_notes": "30 ms silent lead-in (31.39-31.41, sp=86); nasal transition into 'meet' at 31.655."
+    },
+    {
+      "index": 7,
+      "sentence_id": "s2",
+      "word": "meet",
+      "source": "sources/Valkaama_traveler_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 31655000,
+      "end_us": 32050000,
+      "orig_source": "Valkaama(music-MichaelGeorgi).avi",
+      "orig_offset_s": 1990.175,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "high-end",
+      "edge_notes": "Includes /t/ burst (31.94-32.01, >3k=405) + 30 ms of the 60 ms pure silence gap (32.02-32.08, sp=49-61)."
+    },
+    {
+      "index": 8,
+      "sentence_id": "s2",
+      "word": "my",
+      "source": "sources/Valkaama_traveler_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 32050000,
+      "end_us": 32365000,
+      "orig_source": "Valkaama(music-MichaelGeorgi).avi",
+      "orig_offset_s": 1990.175,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "high",
+      "edge_notes": "Starts inside 60 ms pure silence (32.05); ends at 32.36 dip (sp=126) right before /k/ closure."
+    },
+    {
+      "index": 9,
+      "sentence_id": "s2",
+      "word": "companion",
+      "source": "sources/Valkaama_traveler_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 32365000,
+      "end_us": 33225000,
+      "orig_source": "Valkaama(music-MichaelGeorgi).avi",
+      "orig_offset_s": 1990.175,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "high",
+      "edge_notes": "Includes /kəm/ (32.37-32.52, >3k=335) + 30 ms internal /p/ closure (32.53-32.55, sp=41) + -panion ending at 33.21 (~38 RMS)."
+    },
+    {
+      "index": 10,
+      "sentence_id": "s2",
+      "word": "today.",
+      "source": "sources/WalesAnniversary_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 22055000,
+      "end_us": 22800000,
+      "orig_source": "File:WalesAnniversaryAddress.ogv",
+      "orig_offset_s": 0.0,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "high",
+      "edge_notes": "Starts in 60 ms /t/ closure gap (22.055, sp=197), full /t/ burst (22.08-22.09, >3k=350) + vowel + ~290 ms natural room tone (22.51-22.80, ~110 RMS) for S2->S3 pause."
+    },
+    {
+      "index": 11,
+      "sentence_id": "s3",
+      "word": "Shall",
+      "source": "sources/Valkaama_train_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 22665000,
+      "end_us": 22785000,
+      "orig_source": "Valkaama(music-MichaelGeorgi).avi",
+      "orig_offset_s": 3055.0,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "high",
+      "edge_notes": "Starts right after 22.60-22.65 low-freq bump; captures full /ʃ/ fricative (22.68-22.77, >3k=790) to 22.78 valley (sp=171)."
+    },
+    {
+      "index": 12,
+      "sentence_id": "s3",
+      "word": "we",
+      "source": "sources/Valkaama_train_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 22785000,
+      "end_us": 22995000,
+      "orig_source": "Valkaama(music-MichaelGeorgi).avi",
+      "orig_offset_s": 3055.0,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "medium",
+      "edge_notes": "Vowel peak sp=1606 at 22.84 dipping to sp=754 at 22.98 before /g/ transition."
+    },
+    {
+      "index": 13,
+      "sentence_id": "s3",
+      "word": "go?",
+      "source": "sources/Valkaama_train_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 22995000,
+      "end_us": 23325000,
+      "orig_source": "Valkaama(music-MichaelGeorgi).avi",
+      "orig_offset_s": 3055.0,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "high",
+      "edge_notes": "Original onset and coda through ~23.240 s, then 85 ms of measured room tone. Stops before the 23.340–23.350 s transient."
+    },
+    {
+      "index": 14,
+      "sentence_id": "s4",
+      "word": "Yes,",
+      "source": "sources/Valkaama_train_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 24795000,
+      "end_us": 25335000,
+      "orig_source": "Valkaama(music-MichaelGeorgi).avi",
+      "orig_offset_s": 3055.0,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "high",
+      "edge_notes": "Measured quiet lead-in from 24.795–25.020 s, then the original speech and end cut. Clear energy rise after ~25.030 s."
+    },
+    {
+      "index": 15,
+      "sentence_id": "s4",
+      "word": "our",
+      "source": "sources/Valkaama_train_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 25335000,
+      "end_us": 25630000,
+      "orig_source": "Valkaama(music-MichaelGeorgi).avi",
+      "orig_offset_s": 3055.0,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "high",
+      "edge_notes": "Vowel (sp=801) ending at 25.59 + 30 ms of the 60 ms pure silence gap (25.60-25.66, sp=35-42)."
+    },
+    {
+      "index": 16,
+      "sentence_id": "s4",
+      "word": "train",
+      "source": "sources/Valkaama_train_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 25630000,
+      "end_us": 26055000,
+      "orig_source": "Valkaama(music-MichaelGeorgi).avi",
+      "orig_offset_s": 3055.0,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "medium",
+      "edge_notes": "Starts inside 60 ms pure silence (25.63); /t/ aspiration (25.67-25.76, >3k=137) + vowel (sp=1306) to 26.055 valley (sp=243)."
+    },
+    {
+      "index": 17,
+      "sentence_id": "s4",
+      "word": "leaves",
+      "source": "sources/Valkaama_train_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 26055000,
+      "end_us": 26210000,
+      "orig_source": "Valkaama(music-MichaelGeorgi).avi",
+      "orig_offset_s": 3055.0,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "tight-internal",
+      "edge_notes": "MEASURED RISK: brief 155 ms span with tight /l/ onset from 'train' and -z/s- coarticulation before 'soon' (dip sp=60 at 26.18-26.20)."
+    },
+    {
+      "index": 18,
+      "sentence_id": "s4",
+      "word": "soon.",
+      "source": "sources/Valkaama_train_excerpt.mp4",
+      "audio_stream_index": 1,
+      "start_us": 26210000,
+      "end_us": 26800000,
+      "orig_source": "Valkaama(music-MichaelGeorgi).avi",
+      "orig_offset_s": 3055.0,
+      "listening_status": "chờ nghe xác nhận",
+      "boundary_confidence": "high",
+      "edge_notes": "Captures /s/ onset (26.24-26.40, >3k=466) + vowel (sp=718) ending at 26.56 + ~230 ms clean room tone tail (26.57-26.80, ~36 RMS)."
+    }
+  ]
+}
